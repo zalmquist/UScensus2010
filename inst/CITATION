@@ -1,0 +1,19 @@
+citHeader("To cite UScensus2000 in publications use:")
+
+citEntry(entry = "Article",
+  title        = "US Census Spatial and Demographic Data in {R}: The {UScensus2000} Suite of Packages",
+  author       = personList(as.person("Zack W. Almquist")),
+  journal      = "Journal of Statistical Software",
+  year         = "2010",
+  volume       = "37",
+  number       = "6",
+  pages        = "1--31",
+  url          = "http://www.jstatsoft.org/v37/i06/",
+
+  textVersion  =
+  paste("Zack W. Almquist (2010).",
+        "US Census Spatial and Demographic Data in R: The UScensus2000 Suite of Packages.",
+        "Journal of Statistical Software, 37(6), 1-31.",
+        "URL http://www.jstatsoft.org/v37/i06/.")
+)
+
