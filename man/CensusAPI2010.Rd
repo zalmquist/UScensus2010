@@ -9,7 +9,7 @@ Allows the user to access all Summary File 1 (SF1; 100-percent data; \url{http:/
 }
 \usage{
 CensusAPI2010(variables, state.fips, 
-level = c("county", "tract", "block group", "block", "cdp"),
+level = c("county","tract","block group","block","cdp","congressional_district"),
  key, summaryfile = c("sf1", "ACS"))
 }
 %- maybe also 'usage' for other objects documented here.

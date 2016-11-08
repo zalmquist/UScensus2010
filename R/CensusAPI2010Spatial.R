@@ -1,5 +1,4 @@
-CensusAPI2010Spatial<-function(variables, state.fips, level = c("county", "tract", 
-    "block group", "block", "cdp"), key, summaryfile = c("sf1","ACS"), sp.object=NULL){
+CensusAPI2010Spatial<-function(variables, state.fips, level = c("county","tract","block group","block","cdp","congressional_district"), key, summaryfile = c("sf1","ACS"), sp.object=NULL){
 
 CensusAPI2010Spatial.sub<-function(variables, state.fips, level = c("county", "tract", 
     "block group", "block", "cdp"), key, summaryfile = c("sf1","ACS"), sp.object=NULL){
